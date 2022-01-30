@@ -3,7 +3,7 @@ sum = 0
 prime_sum = []
 for i in range(100):
     if i > 1:
-        for j in range(2,i//2):
+        for j in range(2,i):
             if i%j == 0:
                 break
         else:
@@ -15,5 +15,5 @@ for k in prime_no:
         prime_sum.append(sum)
 
 
-print(prime_sum)
+print(prime_sum[-1])
 
